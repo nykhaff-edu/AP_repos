@@ -3,6 +3,4 @@
 
 using namespace nsVar;
 
-void nsDod::dod(){
-  a *= (x * x) / n;
-}
+void nsDod::dod() { a *= (x * x) / n; }
