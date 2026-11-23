@@ -9,7 +9,7 @@
 
 using namespace std;
 
-#define Z 5
+#define Z 2
 
 int main() {
   double x, y, w;
