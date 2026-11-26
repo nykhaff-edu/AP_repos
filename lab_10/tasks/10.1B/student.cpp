@@ -95,16 +95,7 @@ void Print(Student* p, const int N) {
           "=========================================================\n\n";
 }
 
-int ThirdMark(Student* p, const int i) {
-  switch (p[i].spec) {
-    case KN:
-      return p[i].prohramuvannya;
-    case INF:
-      return p[i].chyselni_metody;
-    default:
-      return p[i].pedahohika;
-  }
-}
+int ThirdMark(Student* p, const int i) { return p[i].pedahohika; }
 
 void PrintWithoutThrees(Student* p, const int N) {
   cout << "Вчаться без трійок:\n";
